@@ -1,0 +1,5 @@
+.containerCat{
+    display : grid;
+   
+   row-gap : 100px;
+}

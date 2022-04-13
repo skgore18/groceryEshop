@@ -1,0 +1,79 @@
+.productPageWrapper {
+    padding : 20px;
+display : flex;
+}
+.productPageImageContainer {
+    flex : 1;
+padding : 0px 50px;
+}
+.productPageImage {
+width : 80%;
+height : 60vh;
+object-fit : contain;
+}
+.productPageInfoContainer {
+    flex : 1;
+padding : 0px 50px;
+}
+.productPageTitle {
+    font-weight : 200;
+}
+.productPageDesc {
+    margin : 20px 0px;
+}
+.productPagePrice {
+    font-weight : 100;
+font-size : 40px;
+}
+.productPageFilterContainer {
+width : 50%;
+height : 20%;
+margin : 30px 0px;
+display : flex;
+justify-content : space-between;
+}
+.productPageFilter {
+    display : flex;
+align-items : center;
+}
+.productPageFilterTitle {
+    font-size: 20px;
+font-weight : 200;
+}
+.productPageFilterSize {
+    margin-left : 10px;
+padding : 5px;
+}
+.productPageAddContainer {
+    width : 50%;
+display : flex;
+align-items : center;
+justify-content : space-between;
+}
+
+.productPageAmountContainer{
+display : flex;
+align-items : center;
+font-weight : 700;
+}
+.productPageAmount {
+    width : 30px;
+height : 30px;
+border-radius : 10px;
+border : 1px solid teal;
+display : flex;
+align-items : center;
+justify-content : center;
+margin : 0px 5px;
+}
+.productPageButton {
+    padding : 15px;
+border : 1px solid teal;
+background-color: white;
+cursor : pointer;
+font-weight : 300;
+}
+
+.productPageButton:hover {
+    background-color: #f8f4f4;
+}

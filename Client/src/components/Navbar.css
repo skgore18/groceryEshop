@@ -1,0 +1,53 @@
+.navbarContainer {
+  height: 60px;
+}
+.navbarWrapper {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbarLeft {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  transform: translateY(-15px);
+}
+.navbarLanguage {
+  font-size: 14px;
+  cursor: pointer;
+}
+.navbarSearchContainer {
+  border: 0.5px solid black;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  padding: 5px;
+}
+.navbarInput {
+  border: none;
+}
+.navbarCenter {
+  flex: 1;
+  text-align: center;
+}
+.navbarLogo {
+  font-weight: bold;
+}
+
+.navbarRight {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  transform: translateY(-15px);
+}
+.navbarMenuItems {
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 25px;
+}
+a{
+  text-decoration: none;
+  color : black;
+}

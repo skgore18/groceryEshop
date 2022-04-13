@@ -1,0 +1,72 @@
+.adminProductListContainer {
+  background: transparent;
+}
+.adminProductListTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  margin: 10px;
+}
+hr {
+  height: 1px;
+  background-color: black;
+}
+.adminProductListWrapper {
+  background: transparent;
+}
+.addButton {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+}
+.linkButton {
+  text-decoration: none;
+  color: white;
+}
+
+.select-select {
+  width: 100vw;
+  height: 30px;
+  font-size: 17px;
+  color: white;
+  font-weight: 800;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    background : red;
+    border-radius: 5px;
+    cursor : pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr:nth-of-type(odd) {
+  background: #eee;
+}
+th {
+  background: #333;
+  color: white;
+  font-weight: bold;
+}
+td,
+th {
+  padding: 6px;
+  border: 1px solid #ccc;
+  text-align: left;
+}

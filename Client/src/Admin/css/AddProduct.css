@@ -1,0 +1,45 @@
+.addProductContainer {
+    height : 100vh;
+    background: linear-gradient(35deg, #975bff, #655bff);
+    display: grid;
+    place-items: center;
+}
+.inputContainer {
+    background: rgba(255, 255, 255, 0.05);
+    width: 475px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 45px 25px; */
+    border-radius: 25px;
+    box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.2);
+  }
+.addProductInput {
+    margin-bottom: 10px;
+      height: 20px;
+      width: 100%;
+      color: rgba(255, 255, 255, 0.3);
+      background: rgba(0, 0, 0, 0);
+      border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-align: center;
+      transition: 0.5s ease-in-out;
+}
+.inputLabel {
+    text-align: left;
+    font-size: 1.3rem;
+    opacity: 0.7;
+    padding: 10px 0px;
+}
+.saveButton {
+    background: rgba(255, 255, 255, 0.1);
+    padding : 20px;
+      margin: 10px 0px;
+      border-radius: 25px;
+      font-size: 1.3rem;
+      color: #fff;
+      transition: 0.5s ease-in-out;
+      cursor: pointer;
+}

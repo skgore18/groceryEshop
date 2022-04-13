@@ -1,0 +1,83 @@
+.adminProductListContainer {
+    background : transparent;
+}
+.adminProductListTitle {
+    display: flex;
+    justify-content: center;align-items: center;
+    font-weight : 600;
+    margin : 10px;
+}
+hr {
+    height : 1px;
+    background-color : black;
+}
+.adminProductListWrapper {
+    background : transparent;
+}
+.addButton {
+    background-color : blue;
+    color : white;
+    border-radius: 5px;
+    height : 40px;
+    width : 100px;
+    font-size: 16px;
+    margin : 5px;
+    cursor: pointer;
+}
+.adminProductListTable {
+    width : 100%;
+}
+table {
+    border-collapse: collapse;
+}
+.tableHeading {
+    height : 40px;
+    padding : 5px;
+}
+.tableHeadingId {
+    background-color : lightblue;
+    width : calc(100%/7);
+}
+.tableRow {
+    height : 50px;  
+}
+.tableImage {
+    height : 40px;
+    width : 40px;
+}
+.tableBody {
+    font-size : 16px;
+    font-weight : 800px;
+}
+.rowContent {
+    border-bottom: 1px solid black; 
+}
+.actionButtons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* height : 50px; */
+    width : 100%;
+}
+.updateButton {
+    background-color : blue;
+    font-size : 16px;
+    color : white;
+    border-radius: 5px;
+    height : 30px;
+    width : 80px;
+    cursor: pointer;
+}
+.deleteButton {
+    background-color : red;
+    font-size : 16px;
+    color : white;
+    border-radius: 5px;
+    height : 30px;
+    width : 80px;
+    cursor: pointer;
+}
+.linkButton {
+    text-decoration: none;
+    color : white;
+}

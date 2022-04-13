@@ -1,0 +1,18 @@
+.pContainer {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.productNameSection {
+  position : absolute;
+  bottom : 0;
+  background : rgba(71, 104, 194, 0.5);
+  height : 30%;
+  width : 100%;
+  display: grid;
+  place-items : center;
+  color : white;
+  font-size : 25px;
+  font-weight: 1000;
+}

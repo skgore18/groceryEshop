@@ -1,0 +1,51 @@
+.upContainer {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-image: url("https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
+}
+.upWrapper {
+  width: 60vw;
+  height: 85vh;
+  background-color: white;
+  box-shadow: 0 0 0 10px rgba(52, 136, 35, 0.1);
+  display: flex;align-items: center;justify-content: space-around;
+}
+.upForm {
+    width : 70%;
+    height : 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.upInput {
+    margin : 5px;
+    border : 1px solid black;
+    width : 300px;
+    height : 30px;
+    font-size: 17px;
+    text-align: center;
+}
+.addressButton {
+    margin: 10px;
+    border: none;
+    display: inline-flex;
+    height: 42px;
+    width: 112px;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    background: #3377c0;
+    text-transform: uppercase;
+    justify-content: center;
+    letter-spacing: 1px;
+    transform: translateY(30px);
+}
+.userActions {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

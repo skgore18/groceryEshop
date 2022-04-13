@@ -1,0 +1,127 @@
+/* .checkout-container {
+    display: flex;
+    height : 100vh;
+    background-image: url("https://tinyurl.com/2p89yf8e");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.address-checkout {
+    flex : 1;
+    margin : 10px;
+    height : 90%;
+    position :relative;
+    background: transparent;
+
+}
+.order-summary-checkout {
+    flex : 1;
+    margin : 10px;
+    background : transparent;
+    height : 90%;
+
+}
+.p-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.saveAd {
+    position: absolute;
+    margin: 10px;
+    border: none;
+    display: inline-flex;
+    height: 42px;
+    width: 112px;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    background: #3377c0;
+    text-transform: uppercase;
+    justify-content: center;
+    letter-spacing: 1px;
+    bottom : 0;
+}
+.ad-container {
+    display: grid;
+    row-gap: 50px;
+    font-size: 17px;
+} */
+
+/* .checkout-container {
+    width: 100vw;
+    height : 100vh;
+    background-image: url("https://images.unsplash.com/photo-1613243555988-441166d4d6fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: grid;
+    place-items: center;
+}
+.acc {
+    width : 75%;
+    background-color : gray;
+    color : white;
+} */
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+  .paymentButton {
+    padding : 10px;
+font-size : 20px;
+background-color : lightblue;
+cursor : pointer;
+  }
+  .place {
+    margin: 10px;
+    border: none;
+    display: inline-flex;
+    height: 42px;
+    width: 112px;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    background: #3377c0;
+    text-transform: uppercase;
+    justify-content: center;
+    letter-spacing: 1px;
+    transform: translateY(30px);
+  }
+  
